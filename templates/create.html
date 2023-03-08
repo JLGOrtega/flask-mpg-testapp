@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>{% block title %} Add your info and prepare to be amazed... {% endblock %}</h1>
+    <form method="post">
+        <label for="title">Name</label>
+        <br>
+        <textarea name="title"
+                  placeholder="First 4 letters from your name: "
+                  maxlength="4"
+                  rows="1"
+                  cols="30"
+                  >{{ request.form['content'] }}</textarea>
+        <br>
+
+        <label for="content">Date of Birth</label>
+        <br>
+        <textarea name="content"
+                  placeholder="DOB: "
+                  rows="1"
+                  cols="30"
+                  >{{ request.form['content'] }}</textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+{% endblock %}
