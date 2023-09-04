@@ -148,28 +148,28 @@ def create():
                             {'title': 'Un chiste',
                             'content': random.choice(chistes)}
                             ]
-            elif title.lower() in ["borja"]:
+            elif title.lower() in ["borj"]:
                 messages = [{'title': 'Borja!!',
                             'content': 'Saber porque Borja se trajo una asiatica a la presentacion de ML? Porque NO-VE-LA china XD'},
                             {'title': 'Un chiste',
                             'content': random.choice(chistes)}
                             ]    
                 
-            elif title.lower() in ["jaume", "j"]:
+            elif title.lower() in ["jaum", "j"]:
                 messages = [{'title': 'JAUME!!',
                             'content': 'Ese carretillero ahi to fresco!'},
                             {'title': 'Un chiste',
                             'content': random.choice(chistes)}
                             ]    
                 
-            elif title.lower() in ["santi", "santiago"]:
+            elif title.lower() in ["sant", "santiago"]:
                 messages = [{'title': 'SANTI!!',
                             'content': 'Cuidado que te rajo con una colilla de cigarro cristalizada!!!'},
                             {'title': 'Un chiste',
                             'content': random.choice(chistes)}
                             ]    
                 
-            elif title.lower() in ["yeray"]:
+            elif title.lower() in ["yera"]:
                 messages = [{'title': 'Torrent',
                             'content': 'Bon poble i... cojos'},
                             {'title': 'Tigre, maquina, pegaso!',
