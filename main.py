@@ -130,56 +130,76 @@ def create():
             #                 {'title': 'Wei, pinche, pendejooo!!',
             #                 'content': random.choice(chistes)}
             #                 ]
-            if title.lower() in ["cris", "cristina", "cristi"]:
-                messages = [{'title': 'Cris!',
-                            'content': 'Dos semanitas de clase Cris!!! Buaaaa 😭😭😭'},
-                            {'title': 'Un chiste',
-                            'content': random.choice(chistes)}
-                            ]
-            elif title.lower() in ["ale", "alex", "alejandro", "requena", "alej"]:
-                messages = [{'title': 'Requenaa!!!',
-                            'content': 'CUIDADO que EDEM va a descubrir que eres un CONSUMero infiltrado!'},
-                            {'title': 'Un chiste',
-                            'content': random.choice(chistes)}
-                            ]
-            elif title.lower() in ["rafa", "rafael"]:
-                messages = [{'title': 'ESE Rafa!!!',
-                            'content': 'Superman? Y tanto que es superman. Para sobrevivir a los 250 hijos que tiene ya puede tener poderes, ya!'},
-                            {'title': 'Un chiste',
-                            'content': random.choice(chistes)}
-                            ]
-            elif title.lower() in ["borj"]:
-                messages = [{'title': 'Borja!!',
-                            'content': 'Sabes porque Borja se trajo una asiatica a la presentacion de ML? Porque NO-VE-LA china XD'},
-                            {'title': 'Un chiste',
-                            'content': random.choice(chistes)}
-                            ]    
+            # if title.lower() in ["cris", "cristina", "cristi"]:
+            #     messages = [{'title': 'Cris!',
+            #                 'content': 'Dos semanitas de clase Cris!!! Buaaaa 😭😭😭'},
+            #                 {'title': 'Un chiste',
+            #                 'content': random.choice(chistes)}
+            #                 ]
+            # elif title.lower() in ["ale", "alex", "alejandro", "requena", "alej"]:
+            #     messages = [{'title': 'Requenaa!!!',
+            #                 'content': 'CUIDADO que EDEM va a descubrir que eres un CONSUMero infiltrado!'},
+            #                 {'title': 'Un chiste',
+            #                 'content': random.choice(chistes)}
+            #                 ]
+            # elif title.lower() in ["rafa", "rafael"]:
+            #     messages = [{'title': 'ESE Rafa!!!',
+            #                 'content': 'Superman? Y tanto que es superman. Para sobrevivir a los 250 hijos que tiene ya puede tener poderes, ya!'},
+            #                 {'title': 'Un chiste',
+            #                 'content': random.choice(chistes)}
+            #                 ]
+            # elif title.lower() in ["borj"]:
+            #     messages = [{'title': 'Borja!!',
+            #                 'content': 'Sabes porque Borja se trajo una asiatica a la presentacion de ML? Porque NO-VE-LA china XD'},
+            #                 {'title': 'Un chiste',
+            #                 'content': random.choice(chistes)}
+            #                 ]    
                 
-            elif title.lower() in ["jaum", "j"]:
-                messages = [{'title': 'JAUME!!',
-                            'content': 'Ese carretillero ahi to fresco!'},
+            # elif title.lower() in ["jaum", "j"]:
+            #     messages = [{'title': 'JAUME!!',
+            #                 'content': 'Ese carretillero ahi to fresco!'},
+            #                 {'title': 'Un chiste',
+            #                 'content': random.choice(chistes)}
+            #                 ]    
+                
+            # elif title.lower() in ["sant", "santiago"]:
+            #     messages = [{'title': 'SANTI!!',
+            #                 'content': 'Cuidado que te rajo con una colilla de cigarro cristalizada!!!'},
+            #                 {'title': 'Un chiste',
+            #                 'content': random.choice(chistes)}
+            #                 ]    
+                
+            # elif title.lower() in ["yera"]:
+            #     messages = [{'title': 'Torrent',
+            #                 'content': 'Bon poble i... cojos'},
+            #                 {'title': 'Tigre, maquina, pegaso!',
+            #                 'content': random.choice(chistes)}
+            #                 ]
+            if title.lower() in ["marta", "mart", "martita"]:
+                messages = [{'title': 'Martaaaaaa!',
+                            'content': 'Dos semanitas de clase Martita solo!!! Buaaaa 😭😭😭'},
                             {'title': 'Un chiste',
                             'content': random.choice(chistes)}
-                            ]    
-                
-            elif title.lower() in ["sant", "santiago"]:
-                messages = [{'title': 'SANTI!!',
-                            'content': 'Cuidado que te rajo con una colilla de cigarro cristalizada!!!'},
-                            {'title': 'Un chiste',
-                            'content': random.choice(chistes)}
-                            ]    
-                
-            elif title.lower() in ["yera"]:
-                messages = [{'title': 'Torrent',
-                            'content': 'Bon poble i... cojos'},
-                            {'title': 'Tigre, maquina, pegaso!',
+                ]
+
+            elif title.lower() in ["val", "vale", "valeria"]:
+                messages = [{'title': 'Val!!!',
+                            'content': 'Que sepas que las mejores chuches de clase fueron las tuyas! <3'},
+                            {'title': 'Nos quedan dos semanitas de clase!!!',
                             'content': random.choice(chistes)}
                             ]
+            elif title.lower() in ["carlos", "charli", "charly", "charl", "carlo"]:
+                messages = [{'title': 'Charly!!',
+                            'content': 'Oliver Olivares Olivete Olivo Olivia oli oli allioli!'},
+                            {'title': 'Deja de darle a ChatGPTwerk y mas estudiar!',
+                            'content': random.choice(chistes)}
+                            ]
+            
             
             else:
                 messages = [{'title': 'Exta si!!',
                             'content': 'Exta noooooo!!!'},
-                            {'title': 'Esta me gusta me la como yoooo!! HUHA!',
+                            {'title': 'Esta me gusta me la como yoooo!! HUHA! Por cierto, que profe mas guapo tienes...! <3',
                             'content': random.choice(chistes)}
                             ]
             time.sleep(4)
